@@ -18,14 +18,21 @@ reconnects to your bed by itself.
 
 ## Will it work with my bed?
 
-It works with bases whose Bluetooth controller has a name starting with
-**`KSBT`**, for example `KSBT03C000077272`.
+It's **tested with controllers named `KSBT03C…`** (for example
+`KSBT03C000012345`), the controller in the Member's Mark Premier base. Other
+Keeson controllers whose name starts with **`KSBT`** may work but haven't been
+tested yet. Controllers named `KSBT03CR…` use a different command format and
+aren't supported.
 
 To check:
 
 1. Install the app and open **Settings** (the gear button).
-2. Tap **Choose** next to *Bed*.
-3. The list only shows `KSBT…` controllers. If yours appears, you're set.
+2. Tap **Choose** next to *Bed*. The list only shows `KSBT…` controllers.
+3. Pick yours.
+   - `KSBT03C…` connects normally.
+   - Another `KSBT` name connects with a note that it's untested. Use the free
+     30 days to check every button and that the bed stops when you let go.
+   - `KSBT03CR…` shows a message that it isn't supported.
 
 If nothing shows up, make sure the bed is plugged in and no other app is
 connected to it (see [Troubleshooting](#troubleshooting)). If it still doesn't

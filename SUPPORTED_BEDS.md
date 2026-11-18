@@ -2,8 +2,14 @@
 
 Bed Remote works with adjustable bases that have a **Keeson KSBT** Bluetooth
 controller. You can recognize it by its Bluetooth name, which starts with
-**`KSBT`** (for example `KSBT03C000077272`). The app's bed list only shows
+**`KSBT`** (for example `KSBT03C000012345`). The app's bed list only shows
 these controllers.
+
+**Only `KSBT03C…` controllers have been tested.** When you choose any other
+`KSBT` controller, the app connects but tells you it's untested, so you can
+check every button (and that the bed stops when you let go) during the free 30
+days before relying on it or paying. `KSBT03CR…` controllers are refused
+because they use a different command format.
 
 **Go by the Bluetooth name, not the brand.** Bed brands buy their controllers
 from Keeson and other makers, and the same brand has shipped different
@@ -15,7 +21,7 @@ a `KSBT…` controller appears.
 
 | Bed | Bluetooth name | Notes |
 |---|---|---|
-| **Member's Mark Premier Adjustable Base** (Sam's Club) | `KSBT03C…` | Connection and status confirmed. Head, pillow tilt, foot, positions and massage are being checked button by button. |
+| **Member's Mark Premier Adjustable Base** (Sam's Club) | `KSBT03C…` | Tested by the owner: the motors move while an arrow is held and stop when it's released. |
 
 ## 👍 Should work
 
@@ -46,7 +52,7 @@ an unknown Bluetooth name. If you have one of these, please
 
 | Controller | How to recognize it | Found in |
 |---|---|---|
-| Keeson **KSBT03CR** | name starts with `KSBT03CR` | SomosBeds. Uses a different 7-byte command format. |
+| Keeson **KSBT03CR** | name starts with `KSBT03CR` | SomosBeds. Uses a different 7-byte command format; the app refuses it with a message. |
 | Older Keeson controllers ("BaseI4/BaseI5") | name starts with `base-i4` or `base-i5`, or no `KSBT` name | Older Member's Mark bases, Purple Premium, Serta, Tempur Zero G / Curve, Beautyrest Black, GhostBed, GlideAway, ENSO, Restonic, King Koil, Sealy Ease, some Costco beds |
 | OKIN / DewertOkin, Richmat, Linak, Leggett & Platt, Sleep Number and other brands | anything not starting with `KSBT` | Many other bases |
 
