@@ -59,7 +59,7 @@ After that, the app reconnects whenever you open it.
 | Control | What it does |
 |---|---|
 | **Head / Tilt / Foot arrows** | **Press and hold** to move. Let go and the bed stops. |
-| **Flat, Zero G, Anti-snore** | One tap moves the bed to that position. |
+| **Flat, Zero G, Anti-snore** | One tap moves the bed to that position. **Tap any other button to stop it partway.** |
 | **M1, M2, M3** | Go to a memory position saved with your bed's original remote. |
 | **Massage − / +** | Change head or foot massage strength. **Timer** cycles the massage time. |
 
@@ -110,8 +110,10 @@ tilt or no massage.
 ## Safety
 
 Before moving the bed, make sure nobody, especially children and pets, and
-nothing is under, beside or between its moving parts. The bed only moves while
-you hold an arrow and stops when you let go. Your bed's original remote keeps
+nothing is under, beside or between its moving parts. The arrows only move the
+bed while you hold them and stop when you let go. The positions (Flat, Zero G,
+Anti-snore, M1–M3) move the bed on their own; tap any other button to stop
+them partway. Your bed's original remote keeps
 working alongside the app.
 
 ## Privacy
