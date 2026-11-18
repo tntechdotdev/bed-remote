@@ -12,6 +12,7 @@ reconnects to your bed by itself.
 **Get it:** coming soon to Google Play.
 **Website:** https://tntechdotdev.github.io/bed-remote/
 **Privacy policy:** https://tntechdotdev.github.io/bed-remote/privacy.html
+**Supported beds:** [SUPPORTED_BEDS.md](SUPPORTED_BEDS.md)
 
 ---
 
@@ -31,9 +32,10 @@ connected to it (see [Troubleshooting](#troubleshooting)). If it still doesn't
 appear, your base probably uses a different controller and this app won't work
 with it.
 
-Beds reported to use this controller include the Member's Mark Premier base and
-some Ergomotion bases (Rio 5.0, Rio 6.0). The brand alone doesn't tell you: the
-same brand has shipped with different controllers, so go by the Bluetooth name.
+**See the full list: [Supported beds](SUPPORTED_BEDS.md)**, sorted into confirmed,
+should work, might work, and not supported. The brand alone doesn't tell you:
+the same brand has shipped with different controllers, so go by the Bluetooth
+name.
 
 ## Getting started
 
